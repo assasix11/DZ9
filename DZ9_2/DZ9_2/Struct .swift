@@ -11,5 +11,4 @@ struct Person {
     var name : String
     var age : Int
     var hair : String
-    
 }

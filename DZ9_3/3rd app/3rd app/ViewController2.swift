@@ -11,11 +11,8 @@ class ViewController2: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destinationView = segue.destination as? ViewController
         destinationView?.modalPresentationStyle = .fullScreen
